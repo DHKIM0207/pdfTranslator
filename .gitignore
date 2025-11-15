@@ -1,0 +1,24 @@
+# 폰트 파일
+*.ttf
+*.zip
+
+# 중간 처리 파일
+extracted_content.json
+extracted_text.txt
+pages_metadata.json
+
+# 번역 작업 디렉토리
+pages_to_translate/
+pages_translated/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 미사용 번역 스크립트들
+auto_translate.py
+complete_translation.sh
+manual_translate.py
+translate_content.py
+translate_with_file.py
